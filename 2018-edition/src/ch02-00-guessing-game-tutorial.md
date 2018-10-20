@@ -380,7 +380,7 @@ rand = "0.3.14"
 ```
 
 In the *Cargo.toml* file, everything that follows a header is part of a section
-that continues until another section starts. The `[dependencies]` section is
+that continues until another section starts or end of the file. The `[dependencies]` section is
 where you tell Cargo which external crates your project depends on and which
 versions of those crates you require. In this case, we’ll specify the `rand`
 crate with the semantic version specifier `0.3.14`. Cargo understands [Semantic
